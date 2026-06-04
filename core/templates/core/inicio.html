@@ -1,0 +1,9 @@
+{% extends "core/base.html" %}
+{% block titulo %}Inicio{% endblock %}
+{% block contenido %}
+    <section class="seccion">
+        <h2>Bienvenido/a</h2>
+        <p>El header, navbar y footer vienen de base.html. Eso es DRY.</p>
+        <a class="boton" href="{% url 'contacto' %}">Escríbenos</a>
+    </section>
+{% endblock %}
